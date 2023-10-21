@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 const bodyParser = require('body-parser');
+const port = 3149 || 3000;
 
 
 app.set('view engine', 'ejs');
@@ -71,5 +72,5 @@ app.get('/fetch-atis', async (req, res) => {
  
   });
 
-app.listen(3149);
+app.listen(port);
 console.log('Server is listening on port 3149');
