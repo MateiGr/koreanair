@@ -4,7 +4,7 @@
   "description": "Thanks for downloading this template!",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "npm start"
   },
   "author": "",
   "license": "ISC",
